@@ -15,7 +15,10 @@
       "name": "Authorization"
     }
   },
-  "schemes": [],
+  "schemes": [
+    "http",
+    "https"
+  ],
   "consumes": [
     "application/json"
   ],
@@ -191,7 +194,7 @@
             "headers": {}
           }
         },
-        "security": []
+        "security": [{ "Bearer": [] }]
       }
     }
   },
